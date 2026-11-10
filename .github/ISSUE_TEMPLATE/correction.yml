@@ -1,0 +1,25 @@
+name: Correction / 오류 신고
+description: A case that does not match its source, a broken link or a wrong category / 출처와 다른 내용, 깨진 링크, 틀린 분류
+title: "Correction: IL-0000 — <what is wrong>"
+labels: [correction]
+body:
+  - type: input
+    id: case
+    attributes:
+      label: Case number / 사례 번호
+      placeholder: IL-0001
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong / 틀린 곳
+      description: Quote the sentence or name the field / 문장을 인용하거나 항목 이름을 적어 주세요
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What it should say, and where that comes from / 맞는 내용과 그 근거 주소
+    validations:
+      required: true

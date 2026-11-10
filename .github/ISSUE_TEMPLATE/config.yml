@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Incident Library
+    url: https://benchlet.com/incidentlib/app
+    about: The service itself / 서비스
