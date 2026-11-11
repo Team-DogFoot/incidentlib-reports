@@ -1,5 +1,7 @@
 # Incident Library: reports and corrections
 
+[![Incident Library MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.benchlet/incidentlib/badges/score.svg)](https://glama.ai/mcp/connectors/com.benchlet/incidentlib)
+
 This repository takes two kinds of issues for [Incident Library](https://benchlet.com/incidentlib/app), the searchable collection of public post-incident reports.
 
 - **Propose a case.** A public post-incident report (a postmortem page, an engineering blog post, a status page incident, a talk or a runbook entry) that the library should write up. Use the *Case proposal* issue form.
